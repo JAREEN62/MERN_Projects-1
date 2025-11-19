@@ -1,202 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <!-- link got gont awesom and poppins -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
+  <!-- link got gont awesom and poppins -->
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
 
-  <body>
-    <header>
-      <nav class="navbar" aria-label="main navigation">
-        <a href="#home" class="logo">Project-2</a>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#work">work</a></li>
-          <li><a href="#services">Services</a></li>
-          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button
-          class="theme-toggle"
-          id="theme-toggle"
-          aria-label="toggler of theme"
-        >
-          <i class="fa-solid fa-moon"></i>
-        </button>
-      </nav>
-    </header>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="index.js"></script>
+</head>
 
-    <!-- hero section starts here -->
-    <section id="hero" class="hero" aria-label="homepage">
-      <div class="hero-text">
-        <h1>Neeraj Kumar Gontala</h1>
-        <p>I am a <span class="typed-text"></span></p>
-        <a href="#work" class="btn-primary" aria-label="View my work"
-          >View my work</a
-        >
-        <div class="social-links">
-          <a href="#" aria-label="LinkedIn"
-            ><img
-              src="https://img.icons8.com/color/48/000000/linkedin.png"
-              alt="LinkedIn"
-          /></a>
-          <a href="#" aria-label="GitHub"
-            ><img
-              src="https://img.icons8.com/color/48/000000/github.png"
-              alt="GitHub"
-          /></a>
-          <a href="#" aria-label="Twitter"
-            ><img
-              src="https://img.icons8.com/color/48/000000/twitter.png"
-              alt="Twitter"
-          /></a>
-        </div>
+<body>
+  <header>
+    <nav class="navbar" aria-label="main navigation">
+      <a href="#home" class="logo">The Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themetoggle" aria-label="toggler of theme">
+        🌙
+      </button>
+    </nav>
+  </header>
+
+  <!-- hero section starts here -->
+  <section id="home" class="hero" aria-label="homepage">
+    <div class="hero-text">
+      <h1>21-days 21 projects</h1>
+      <p>I am a <span class="typed-text"></span></p>
+      <a href="#work" class="btn-primary" aria-label="View my work">View my work</a>
+      <div class="social-links">
+        <a href="#" aria-label="LinkedIn"><img src="https://img.icons8.com/color/48/000000/linkedin.png"
+            alt="LinkedIn" /></a>
+        <a href="#" aria-label="GitHub"><img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" /></a>
+        <a href="#" aria-label="Twitter"><img src="https://img.icons8.com/color/48/000000/twitter.png"
+            alt="Twitter" /></a>
       </div>
-      <div class="hero-image">
-        <img
-          src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?auto=format&fit=crop&w=800&q=80"
-          alt=""
-        />
-      </div>
-    </section>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+    </div>
+  </section>
 
-    <!-- work section starts here -->
-    <section
-      id="work"
-      class="recent-work"
-      role="region"
-      aria-label="work section"
-    >
-      <h2>Recent Work</h2>
-      <div class="work-grid">
-        <div class="work-card">
-          <img
-            src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=800&q=80"
-            alt="Project 1"
-          />
-          <div class="overlay">
-            <h3>Restaurant website</h3>
-            <div class="buttons">
-              <a class="btn" href="#">Live Demo</a>
-              <a href="#" class="btn-outline">View Code</a>
-            </div>
-          </div>
-        </div>
+  <!-- work section starts here -->
+  <section id="work" class="recent-work" role="region" aria-label="work section">
+    <h2>Recent Work</h2>
+    <div class="work-grid">
 
-        <div class="work-card">
-          <img
-            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
-            alt="Project 2"
-          />
-          <div class="overlay">
-            <h3>E-commerce Platform</h3>
-            <div class="buttons">
-              <a class="btn" href="#">Live Demo</a>
-              <a href="#" class="btn-outline">View Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="work-card">
-          <img
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
-            alt="Project 3"
-          />
-          <div class="overlay">
-            <h3>Portfolio Website</h3>
-            <div class="buttons">
-              <a class="btn" href="#">Live Demo</a>
-              <a href="#" class="btn-outline">View Code</a>
-            </div>
+      <div class="work-card">
+        <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=800&q=80"
+          alt="Project 1" />
+        <div class="overlay">
+          <h3>Restaurant website</h3>
+          <div class="buttons">
+            <a class="btn" href="#">Live Demo</a>
+            <a href="#" class="btn-outline">View Code</a>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- services section starts here -->
-    <section
-      id="services"
-      class="services"
-      role="region"
-      aria-label="services section"
-    >
-      <h2>Our Services</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-icon">
-            <i class="fas fa-code"></i> <i class="fas fa-code"></i>
+      <div class="work-card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+          alt="Project 2" />
+        <div class="overlay">
+          <h3>E-commerce Platform</h3>
+          <div class="buttons">
+            <a class="btn" href="#">Live Demo</a>
+            <a href="#" class="btn-outline">View Code</a>
           </div>
-          <h3>Web Development</h3>
-          <p>
-            We build responsive and dynamic websites tailored to your needs.
-          </p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">
-            <i class="fas fa-paint-brush"></i>
-          </div>
-          <h3>UI/UX Design</h3>
-          <p>Our designs are user-centric, ensuring an intuitive experience.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">
-            <i class="fas fa-mobile-alt"></i>
-          </div>
-          <h3>Mobile App Development</h3>
-          <p>
-            We create mobile applications that are fast, reliable, and engaging.
-          </p>
         </div>
       </div>
-    </section>
 
-    <!-- testimonials section starts here  -->
-     <section
-        id="testimonials"
-        class="section"
-        role="region"
-        aria-label="testimonials section">
-
-        <div class="container">
-            <h2 id="testimonials-heading">What Our Clients Say</h2>
-            <div class="testimonials-grid" role="list">
-                <blockquote class="testimonial">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <p>Amazing experience! The trip was well organized and unforgettable.</p>
-                    <h4>- John Doe</h4>
-                </blockquote>
-                <blockquote class="testimonial">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <p>The best vacation I've ever had! Highly recommend ExploreWorld.</p>
-                    <h4>- Jane Smith</h4>
-                </blockquote>
-                <blockquote class="testimonial">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <p>Unforgettable experience! Will definitely book again.</p>
-                    <h4>- Alex Johnson</h4>
-                </blockquote>
-                </blockquote class="testimonial">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <p>Amazing service and beautiful destinations. Loved every moment!</p>
-                    <h4>- Emily Davis</h4>
-                </blockquote>
-            </div>
+      <div class="work-card">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+          alt="Project 3" />
+        <div class="overlay">
+          <h3>Portfolio Website</h3>
+          <div class="buttons">
+            <a class="btn" href="#">Live Demo</a>
+            <a href="#" class="btn-outline">View Code</a>
+          </div>
         </div>
-    </section>
+      </div>
 
-  </body>
+      <div class="work-card">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+          alt="Project 4" />
+        <div class="overlay">
+          <h3>Blog Platform</h3>
+          <div class="buttons">
+            <a class="btn" href="#">Live Demo</a>
+            <a href="#" class="btn-outline">View Code</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- services section starts here -->
+  <section id="services" class="services" role="region" aria-label="services section">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-code"></i> <i class="fas fa-code"></i>
+        </div>
+        <h3>Web Development</h3>
+        <p>
+          We build responsive and dynamic websites tailored to your needs.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-paint-brush"></i>
+        </div>
+        <h3>UI/UX Design</h3>
+        <p>Our designs are user-centric, ensuring an intuitive experience.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h3>Mobile App Development</h3>
+        <p>
+          We create mobile applications that are fast, reliable, and engaging.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials section starts here  -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80"
+          alt="Jane Doe" />
+        <!-- <i class="fa-solid fa-quote-left"></i> -->
+        <p>Amazing experience! The trip was well organized and unforgettable.</p>
+        <h4>- John Doe</h4>
+        <span> Software Engineer,</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80"
+          alt="Mike Smith" />
+        <!-- <i class="fa-solid fa-quote-left"></i> -->
+        <p>
+          The team was professional and attentive to our needs. Highly recommend!
+        </p>
+        <h4>- Mike Smith</h4>
+        <span> Product Manager, Audible</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80"
+          alt="Mike Smith" />
+        <!-- <i class="fa-solid fa-quote-left"></i> -->
+        <p>
+          The team was professional and attentive to our needs. Highly recommend!
+        </p>
+        <h4>- Mike Smith</h4>
+        <span> Product Manager, Microsoft</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80"
+          alt="Jane Doe" />
+        <!-- <i class="fa-solid fa-quote-left"></i> -->
+        <p>Amazing experience! The trip was well organized and unforgettable.</p>
+        <h4>- John Doe</h4>
+        <span> Software Engineer, Google</span>
+
+      </div>
+    </div>
+  </section>
+
+ <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-section about">
+      <h3>The Portfolio</h3>
+      <p>Crafting clean, modern, and impactful digital products.</p>
+    </div>
+
+    <div class="footer-section links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section contact">
+      <h4>Contact</h4>
+      <p>Email: myemail123@email.com</p>
+      <p>Location: Montgomery, Alabama, USA</p>
+
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2024 The Portfolio — Designed with passion.
+  </div>
+</footer>
+</body>
+
 </html>
