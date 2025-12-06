@@ -238,3 +238,69 @@ body[data-mode="dark"] .card {
     position: static !important;
   }
 }
+
+/* =========================================
+   FOOTER STYLES
+   ========================================= */
+
+#app-footer {
+  /* Panel Styling */
+  background-color: #ffffff;
+  border: 1px solid var(--resume-border);
+  border-radius: 1rem; /* rounded-4 equivalent */
+  padding: 3rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+  
+  /* Typography */
+  color: var(--text-muted);
+}
+
+/* Headings in Footer */
+#app-footer h5 {
+  color: #212529; /* Dark gray */
+}
+
+/* Link Styling */
+.footer-link, 
+.footer-social-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.footer-link:hover, 
+.footer-social-links a:hover {
+  color: var(--resume-heading); /* Your primary blue */
+  transform: translateX(3px); /* Subtle slide effect */
+}
+
+/* =========================================
+   DARK MODE FOOTER OVERRIDES
+   ========================================= */
+
+body[data-mode="dark"] #app-footer {
+  background-color: #102341; /* Matches your other cards */
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+
+body[data-mode="dark"] #app-footer h5 {
+  color: #f8f9fa; /* White title in dark mode */
+}
+
+body[data-mode="dark"] #app-footer .text-secondary,
+body[data-mode="dark"] #app-footer .text-muted {
+  color: #94a3b8 !important; /* Lighter gray for readability */
+}
+
+body[data-mode="dark"] .border-secondary-subtle {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  #app-footer {
+    padding: 2rem 1.5rem;
+  }
+}
