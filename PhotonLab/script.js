@@ -38,7 +38,7 @@ function applyFilters() {
   const blurValue = blurInput.value;
   const sepiaValue = sepia ? 100 : 0;
 
-  ctx.filter = `brightness(${brightnessValue}%)contrast(${contrastValue}%)saturate(${saturationValue}%)blur(${blurValue}px)sepia(${sepiaValue}%)`;
+  ctx.filter = `brightness(${brightnessValue}%) contrast(${contrastValue}%) saturate(${saturationValue}%) blur(${blurValue}px) sepia(${sepiaValue}%)`;
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 }
